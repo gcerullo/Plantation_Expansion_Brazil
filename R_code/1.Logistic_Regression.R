@@ -1,6 +1,4 @@
-# This code: 
-#(1)Calculates  correlations between predictor variables in 2000-2010 
-#(2) Create logistic reression for predicting plantation expansion
+# This code test permformance of logistic regression models only using contagion variables. 
 
 rm(list = ls())
 
