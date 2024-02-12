@@ -211,8 +211,8 @@ Export.image.toAsset({
 
 ///add the data to GEE from assets showing single-year opp cost  
 
-var opppast = ee.Image('users/GEE_tutorial/eucalyptus_expansion/op_cost_grassland_WSG_1k_nnrs')
-var oppcrop = ee.Image('users/GEE_tutorial/eucalyptus_expansion/op_cost_cropland_WSG_1k_nnrs')
+var opppast = ee.Image('users/GEE_tutorial/eucalyptus_expansion/op_cost_grassland')
+var oppcrop = ee.Image('users/GEE_tutorial/eucalyptus_expansion/op_cost_cropland')
 
 
 //read in annual coverage of pasture and cropland 
@@ -285,7 +285,7 @@ Export.image.toAsset({
 //==========================================================================================
 // BIOPHYSICAL SUITABILITY
 //==========================================================================================
-//recalculate eucalyptus at 10km scale
+//recalculate land suitability at 10km scale
 var eucalypt = ee.Image('users/GEE_tutorial/eucalyptus_expansion/outputs/resampled_suitability_euc');
 
 var eucalypt_10km = eucalypt
