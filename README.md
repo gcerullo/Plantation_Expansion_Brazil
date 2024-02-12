@@ -7,6 +7,9 @@ Random forest model performance, comparisons to logistic regressions, and then s
 
 Full descriptions of what each script does is as follows. 
 
+All data-layers not openly avaialble through GEE or else constructed in the following code are openly available at: 
+https://zenodo.org/records/10650174
+
 -----------
 GEE code 
 -----------
