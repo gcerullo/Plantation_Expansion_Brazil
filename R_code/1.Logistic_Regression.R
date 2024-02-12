@@ -39,7 +39,6 @@ print(Training_list)
 
 #read in the predictor variables for 2010-2020, and the actual expansion, for running logistic regression models 
 Pred2010_2020 <- stack('Data/BRAZ_Predictors_2010_2020_ForLogistic.tif')
-#Pred2010_2020 <- stack('Data/BINARY_BRAZ_Predictors_2010_2020_ForLogistic.tif')
 
 # Define key params ####
 
