@@ -33,10 +33,10 @@ for terrestrial vertebrates from ecosystem restoration.
 R Code
 -----------
 
-BuildFarmSizeByMunicipalityRasters.R
+1a. BuildFarmSizeByMunicipalityRasters.R
 This code caclulates the proportion of each Brazilian municipality covered by farms >100 ha 
 
-1.Logistic_Regression.R
+1b.Logistic_Regression.R
 This code tests permformance of logistic regression models only using contagion variables. 
 
 2.Test_Performance_Of_Random_Forest_Models.R
