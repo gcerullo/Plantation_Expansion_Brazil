@@ -15,17 +15,21 @@ GEE code
 -----------
 
 1_ProcessMabiomas_data_and_calculate_predictors.js
+
 This code calculates key predictors for RF models and interfaces with the Mapbiomas portal. 
 
 2_BuildMultiBandRaster_of_Predictors.js
+
 This code takes the predictors and land-use coverage data calculated in script one, and produces
 a single image where each year of data is provided as a band.
 
 3_RunRandomForest.js
+
 This code runs the random forest models, testing different expansion thresholds (5,10,15%)
 and with different ratios of expansion to no-expansion cells across Brazil. 
 
 4_ProcessRestorationLayer.js
+
 This code resamples the Strassburg et al layer showing avoided extinction per hectare
 for terrestrial vertebrates from ecosystem restoration. 
 
@@ -34,19 +38,24 @@ R Code
 -----------
 
 1a. BuildFarmSizeByMunicipalityRasters.R
+
 This code caclulates the proportion of each Brazilian municipality covered by farms >100 ha 
 
 1b.Logistic_Regression.R
+
 This code tests permformance of logistic regression models only using contagion variables. 
 
 2.Test_Performance_Of_Random_Forest_Models.R
+
 This code calculates how well different random forest models predict true plantation expansion
 
 3.Simulate_Expansion_and_quantify_restoration_overlap.R
+
 This codes simulates expansion in plantation based on the probability of expansion surface,
 and then explores the extent of overlap with restoration priority areas for terrestrial vertebrates in Brazil. 
 
 4.MakingBivariateRastersForBrazAndBiome.R
+
 This code creates bivariate maps showing restoration plantation potential versus 
 plantation expansion probability at biome and country scale. Plots are built in R for 
 replicability ; finally manuscript figures were built in Qgis. 
